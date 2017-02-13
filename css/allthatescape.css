@@ -1,0 +1,354 @@
+/* for larger screen */
+@media (min-width: 720px) {
+    .map-container {
+        margin-left: 46.2rem;
+        /*margin-top: 4rem;*/
+        /*min-height: 600px;*/
+        height: 100%;
+        width: auto;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: block;
+    }
+    div.sidebar {
+        width: 43rem;
+    }
+
+    div#result {
+        width: 43rem;
+    }
+    .mobile-only {
+        visibility: hidden;
+        display: none;
+    }
+    /* xlarge button from http://stackoverflow.com/questions/13112200/resizing-buttons-in-twitter-bootstrap */
+    .btn-xlarge {
+        padding: 18px 28px;
+        font-size: 22px; /* change this to your desired size */
+        line-height: normal;
+        -webkit-border-radius: 8px;
+           -moz-border-radius: 8px;
+                border-radius: 8px;
+    }
+
+    input.datepicker.form-control {
+        width: 10rem;
+        display: inline;
+    }
+
+    div.id_date {
+        width: 10rem;
+    }
+    
+    div.id_start_time {
+        width: 7rem;
+    }
+
+    div#filter {
+        width: 43rem;
+    }
+
+    div.id_room__branch__region > select {
+        width: 12rem;
+    }
+    a#kakao-link.kakao-link {
+        padding-top: 14px;
+    }
+
+}
+
+
+
+
+.custom_typecontrol {
+    position:absolute;
+    top:70px;
+    left:20px;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    z-index:1;
+    font-size:12px;
+    font-family:'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+.custom_typecontrol span {
+    display:block;
+    height:30px;
+    float:left;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+}
+
+.navbar-nav > li > div.fb-like, .navbar-nav > li > iframe, .navbar-nav > li > div.fb-share-button {
+    margin-top: 15px;
+    margin-left: 4px;      
+}
+
+
+
+/* for mobile screen */
+@media (max-width: 719px) {
+    .desktop-only {
+        visibility: hidden;
+        display: none;
+    }
+    .map-container {
+        margin-top: 0;
+        height: -moz-calc(100% - 14rem);
+        height: -webkit-calc(100% - 14rem);
+        height: calc(100% - 14rem);
+        width: 100%;
+        position: fixed;
+        top: 12rem;
+        right: 0;
+        left: 0;
+        display: block;
+        z-index: -1;
+    }
+    form#maprelated {
+        position: fixed;
+        margin-right: 15px;
+        background-color: white;
+        z-index: 1;
+    }
+    div#result {
+        background-color: white;
+        position: absolute;
+        width: 100%;
+    }
+
+    div.sidebar{
+        overflow: auto;
+    }
+    /* xlarge button from http://stackoverflow.com/questions/13112200/resizing-buttons-in-twitter-bootstrap */
+    .btn-xlarge {
+        padding: 22px 20px;
+        font-size: 16pt; /*change this to your desired size*/
+        line-height: normal;
+        -webkit-border-radius: 4px;
+           -moz-border-radius: 4px;
+                border-radius: 4px;
+    }
+
+    div.id_date {
+        width: -moz-calc(40% - 0.5rem - 2.5rem);
+        width: -webkit-calc(40% - 0.5rem - 2.5rem);
+        width: calc(40% - 0.5rem - 2.5rem);
+    }
+
+    div.id_start_time {
+        width: -moz-calc(30% - 0.5rem - 1.5rem);
+        width: -webkit-calc(30% - 0.5rem - 1.5rem);
+        width: calc(30% - 0.5rem - 1.5em);
+
+    }
+
+    div.id_room__branch__region {
+        width: -moz-calc(30% - 0.5rem);
+        width: -webkit-calc(30% - 0.5rem);
+        width: calc(30% - 0.5rem);
+    }
+
+    /* adjust control button for mobile */
+    .custom_typecontrol {
+        left: initial;
+        right: 20px;
+        top: 20px;
+    }
+
+    /* new padding for social button in navbar while mobile */
+    .navbar-nav > li > div.fb-like, .navbar-nav > li > iframe, .navbar-nav > li > div.fb-share-button {
+        margin-top: 10px;
+    }
+
+    table > tbody > tr.room-schedule > td {
+        padding: 2px 3px;
+    }
+}
+
+/* navbar button will float even while mobile */
+.nav > li {
+    float: left;
+}
+
+/*tr.room-schedule > td {
+    padding-bottom: 1px !important;
+}
+*/
+form#maprelated {
+    overflow: auto;
+}
+
+
+/*button.*/
+/* http://mattsnider.com/css-string-truncation-with-ellipsis/#heading4 */
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  /* IE 6+, FF 7+, Op 11+, Saf 1.3+, Chr 1+ */
+    -o-text-overflow: ellipsis;  /* for Opera 9 & 10 */
+}
+p.schedules {
+        width: 20rem !important;
+}
+
+div.id_room__branch__lat_0, div.id_room__branch__lon_0 {
+    visibility: hidden;
+    display: none;
+
+}
+.hidden-field {
+    visibility: hidden;
+    display: none;
+}
+div#result {
+    left: 0;
+    display: block;
+}
+
+.radius_border{border:1px solid #919191;border-radius:5px;}     
+/*    .custom_typecontrol .btn {background:#fff;background:linear-gradient(#fff,  #e6e6e6);}       
+.custom_typecontrol .btn:hover {background:#f5f5f5;background:linear-gradient(#f5f5f5,#e3e3e3);}
+.custom_typecontrol .btn:active {background:#e6e6e6;background:linear-gradient(#e6e6e6, #fff);}    
+*/    .custom_typecontrol .selected_btn {
+    color:#fff;background:#425470;background:linear-gradient(#425470, #5b6d8a);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.custom_typecontrol .selected_btn:hover {color:#fff;}   
+.custom_zoomcontrol {position:absolute;top:50px;right:10px;width:36px;height:80px;overflow:hidden;z-index:1;background-color:#f5f5f5;} 
+.custom_zoomcontrol span {display:block;width:36px;height:40px;text-align:center;cursor:pointer;}     
+.custom_zoomcontrol span img {width:15px;height:15px;padding:12px 0;border:none;}             
+.custom_zoomcontrol span:first-child{border-bottom:1px solid #bfbfbf;}
+
+/* custom layout for daum map */
+.wrap {position: absolute;left: 0;bottom: 40px;width: 288px;height: 132px;margin-left: -144px;text-align: left;overflow: hidden;font-size: 12px;font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;line-height: 1.5;}
+/*.wrap * {padding: 0;margin: 0;}*/
+.wrap .info {width: 286px;height: 120px;border-radius: 5px;border-bottom: 2px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;background: #fff;}
+.wrap .info:nth-child(1) {border: 0;box-shadow: 0px 1px 2px #888;}
+.info .title {padding: 5px 0 0 10px;height: 30px;background: #eee;border-bottom: 1px solid #ddd;font-size: 18px;font-weight: bold;}
+.info .close {position: absolute;top: 10px;right: 10px;color: #888;width: 17px;height: 17px;background: url('http://i1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');}
+.info .close:hover {cursor: pointer;}
+.info .body {position: relative;overflow: hidden;}
+.info .desc {position: relative;margin: 13px; /*0 0 90px;*/ height: 75px;}
+.desc .ellipsis {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.desc .jibun {font-size: 11px;color: #888;margin-top: -2px;}
+.info .img {position: absolute;top: 6px;left: 5px;width: 73px;height: 71px;border: 1px solid #ddd;color: #888;overflow: hidden;}
+.info:after {content: '';position: absolute;margin-left: -12px;left: 50%;bottom: 0;width: 22px;height: 12px;background: url('http://i1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+.info .link {color: #5085BB;}
+
+
+tr.branch {
+    background-color: #F7F7F7;
+}
+
+table > tbody > tr.branch > td {
+    padding: 2px 8px;
+}
+
+/* showing level difficulty */
+.level-difficulty {
+    color: transparent;
+    float: left;
+    width: 24px;
+    background-image: url(/static/image/level.png);
+    background-size: 18px 64px;
+    background-repeat: no-repeat;
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 2), 
+(min-resolution: 192dpi) { 
+    /* Retina-specific stuff here */
+    .level-difficulty {
+        background-image: url(/static/image/level@2.png);
+    }
+}
+
+
+.level-10, .level-9 { background-position: 0 0; }
+.level-8, .level-7 { background-position: 0 -22px; }
+.level-6, .level-5 { background-position: 0 -44px; }
+
+
+/* custom glyph with escape man™ copyright Yeonjoo Jung */
+@font-face {
+  font-family: 'Glyphicons escapeman';
+
+  src: url('../bootstrap-3.3.4-dist/fonts/escapeman.eot');
+  src: url('../bootstrap-3.3.4-dist/fonts/escapeman.eot?#iefix') format('embedded-opentype'), url('../bootstrap-3.3.4-dist/fonts/escapeman.woff') format('woff'), url('../bootstrap-3.3.4-dist/fonts/escapeman.ttf') format('truetype'), url('../bootstrap-3.3.4-dist/fonts/escapeman.svg#escapemanregular') format('svg');
+}
+.glyphicon2 {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons escapeman';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon-escapeman:before {
+  content: "\e800";
+}
+
+.glyphicon-helmet:before {
+  content: "\e801";
+}
+
+      .fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
+        display: none !important;
+      }
+
+      .fb_iframe_widget, div.fb_iframe_widget_fluid {
+        overflow: hidden;
+        display: block;
+        height: 20px;
+      }
+
+      span.label-kakao {
+        background-color: #ffDE00;
+        font-weight: normal;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        color: #3C1D1E;
+      }
+
+      span.label-kakao:hover {
+        background-color: #feC700;
+      }
+
+      /*a#kakao-link.kakao-link {*/
+        /*padding-left: 4px;*/
+        /*padding-right: 0;*/
+      /*}*/
+
+      .label-msg {
+        margin-left: .3em;
+        padding-top: .2em;
+        padding-bottom: .2em;
+
+      }
+
+
+span.minibutton {
+    padding-top:4px;
+}
+
+div.fieldWrapper > input.form-control {
+    width: 100%;
+    display: inline;
+}
+div.fieldWrapper {
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px 3px;
+}

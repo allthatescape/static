@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>All That Escape, yeoooonj@gmail.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="escape-man-size2" unicode="&#xe800;" d="M347 652c-34-60-110-81-169-47-60 35-80 111-46 171 34 60 109 81 169 47 60-35 80-111 46-171z m166-566l-55 222 0 0-76 164 94-28 39-144 101 28-54 200-233 71c-25-20-57-31-89-31l30-126-115-32-53 85-89-56 94-151 188 51 19-82-215-76-87-288 100-31 72 237 200 71 40-164 245-90 36 99-192 71z" horiz-adv-x="715" />
+
+<glyph glyph-name="helmet2" unicode="&#xe801;" d="M1341 206c43-17 109-73 2-125-76-36-487-43-487-43 442 69 485 168 485 168-17 179-94 337-205 445-55-287-114-366-126-381-1 0-1 1-1 1 87 147 36 316 36 316s17 52 38 110c-87 67-191 105-302 105-103 0-199-33-282-91 23-63 43-124 43-124s-50-168 35-314c0 0-1 0-1 0-16 19-74 107-129 398-123-108-207-275-226-465-97-34-155-77-155-124 0-110 320-199 715-199 395 0 715 89 715 199 0 47-58 90-155 124z m-508 74c-17 1-34 1-52 1-18 0-35 0-52-1v118h-131v105h131v131h104v-131h131v-105h-131v-118z" horiz-adv-x="1535" />
+</font>
+</defs>
+</svg>
